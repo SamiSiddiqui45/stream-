@@ -1,0 +1,592 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+    width: 1920px;
+    height: 1092px;
+} */
+
+body{
+   background-color: #1f1f1f;
+}
+
+.first_hero_parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 162px 30px 162px;
+  width: 1921px;
+  height: 120px;
+  position: fixed;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 25px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* hero_section */
+section {
+  width: 1920px;
+  height: 1092px;
+}
+
+/* .second_hero_section{
+    } */
+
+.second_hero_Section {
+  position: absolute;
+  bottom: 124px;
+  width: 1920px;
+  height: 296px;
+  padding-right: 412px;
+  padding-left: 412px;
+  gap: 50px;
+  text-align: center;
+}
+
+.hero_image_container {
+  width: 1920px;
+  height: 860px;
+}
+
+.hero_second_image {
+  width: 470px;
+  height: 470px;
+  position: absolute;
+  bottom: 366px;
+  right: 650px;
+}
+
+.heading_section {
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  font-size: 58px;
+  width: 1096px;
+  height: 87px;
+  line-height: 150%;
+}
+
+.heading_paragraph {
+  width: 1096px;
+  height: 81px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #999999;
+  opacity: 100%;
+}
+
+.heading_button {
+  width: 251px;
+  height: 64px;
+  padding: 24px 18px;
+  background-color: #e50000;
+  color: #ffffff;
+  border-radius: 8px;
+  opacity: 1;
+  margin-top: 50px;
+}
+
+/* third_hero_section */
+
+.third_hero_section_one {
+  width: 1920px;
+  height: 1092px;
+  background-color: #1f1f1f;
+}
+
+.third_hero_section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+.third_hero_heading{
+    width: 1240px;
+    height: 57px;
+    font-size: 38px;
+    line-height: 150%;
+    font-family: "Manrope", sans-serif;
+
+}
+
+.third_hero_paragraph {
+  color: #999999;
+  width: 1240px;
+  height: 27px;
+  font-family: "Manrope", sans-serif;
+
+}
+
+.third_hero-button{
+    width: 257px;
+    height: 88px;
+    gap: 16px;
+    padding: 16px 16px;
+    border-radius: 12px;
+}
+
+.third_hero_section_downdiv{
+    width: 1597px;
+    height: 342px;
+    gap: 30px;
+    display: flex;
+}
+
+.third_subdiv{
+    width:295.4px;
+    height: 342px;
+    padding: 30px 30px;
+}
+
+.third_last_subdiv{
+    width: 235.4px;
+    height: 252px;
+    gap: 5px;
+}
+
+.fourth_hero_section_fourth_div{
+  width: 1279px;
+  height:100px;
+  padding-right: 150px;
+  gap: 10px;
+}
+
+.fourth_hero_section_fourth_section{
+  background-color: #1f1f1f;
+  margin-top: 100px;
+	padding-left: 81px;
+  width: 1279px;
+  height: 64px;
+  gap: 60px;
+  opacity: 16px;
+
+}
+
+.fourth_hero_section_fourth_div{
+  width: 1279px;
+  height: 100px;
+  gap: 10px;
+  padding-right: 150px;
+  opacity: 16px;
+  margin-bottom: 60px;
+}
+
+.fourth_hero_Section_third_heading{
+  width: 1129px;
+  height: 42px;
+ font-family: "Manrope", sans-serif;
+ font-weight: bold;
+ font-size: 28px;
+ line-height: 24px;
+ opacity: 16px;
+ color: #FFFFFF;
+}
+
+.fourth_hero_Section_third_paragraph{
+   width: 1129px;
+  height: 48px;
+  /* font-weight: */
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 16px;
+ color: #999999;
+}
+
+/* fifth_section */
+
+.cards-grid-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+    gap: 30px; 
+     width: 100%; 
+}
+.hero_main_fifth_div{
+   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  opacity: 16px;
+  background-color: #1f1f1f;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+.main_fifth_image_heaidng_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+ width:100%;
+ height: auto
+ margin-top: 40px;
+ padding:40px 40px;
+ gap:24px;
+ border-radius:10px;
+}
+
+.sub_fifth_paragraph_div{
+  /* padding-left: 40px;
+  margin-top:118px; */
+  padding-left: 10px;
+    margin-top: 16px;
+  width: 333px;
+  height: 72px;
+  font-family: "Manrope", sans-serif;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.sub_fifth_image_heading_div{
+display: flex;
+align-items: center;
+}
+
+/* 6 section */
+
+.sixth_section{
+  padding-left: 80px;
+  margin-top: 2284px;
+  /* flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;    */
+  width: 1280px;
+  height: auto;
+  gap: 60px;
+  opacity: 1;
+}
+
+.sixth_section_div_sixth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 80px;
+  opacity: 1;
+}
+
+.sixth_section_div{
+
+}
+.sixth_section_heading{
+  color: #FFFFFF;
+}
+.sixth_section_paragraph{
+  color: #999999;
+}
+.sixth_section_button{
+  color: #FFFFFF;
+  background-color: #e50000;
+  width: auto;
+  height: auto;
+  padding: 20px 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_sixth_section_div{
+  display: flex;
+
+}
+
+
+/* Base Variables & Setup */
+:root {
+  --bg-dark: #141414;
+  --bg-card: #1a1a1a;
+  --border-color: #262626;
+  --primary-red: #e50000;
+  --text-white: #ffffff;
+  --text-gray: #999999;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.streamvibe-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px; /* Aap ka X 80 margin setup */
+  box-sizing: border-box;
+}
+
+section {
+  margin-top: 100px; /* Sections ke darmiyan standard Y-gap */
+}
+
+/* Reusable Components */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 60px; /* Pink 60 margin setup jo humne seekha tha */
+}
+
+.section-header h2 {
+  font-size: 28px;
+  margin: 0 0 12px 0;
+}
+
+.section-header p {
+  color: var(--text-gray);
+  max-width: 800px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.btn-red {
+  background-color: var(--primary-red);
+  color: var(--text-white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--text-white);
+  border: 1px solid var(--border-color);
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ==================== FAQ SECTION CSS ==================== */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns setup */
+  gap: 40px;
+}
+
+.faq-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.faq-num {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #1a1a1a;
+  border: 1px solid var(--border-color);
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+.faq-content h3 {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
+
+.faq-content p {
+  color: var(--text-gray);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+.faq-toggle {
+  background: none;
+  border: none;
+  color: var(--text-white);
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+  padding-top: 5px;
+}
+
+/* ==================== PRICING SECTION CSS ==================== */
+.toggle-container {
+  display: flex;
+  background-color: #0f0f0f;
+  border: 1px solid var(--border-color);
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: var(--text-gray);
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toggle-btn.active {
+  background-color: var(--bg-card);
+  color: var(--text-white);
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards ek row mein code */
+  gap: 30px;
+}
+
+.price-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-card h3 {
+  font-size: 22px;
+  margin: 0 0 12px 0;
+}
+
+.plan-desc {
+  color: var(--text-gray);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+  flex-grow: 1;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.price span {
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.card-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+/* ==================== CTA SECTION CSS ==================== */
+.cta-section {
+  background: linear-gradient(90deg, rgba(20,20,20,0.9) 0%, rgba(229,0,0,0.1) 100%), url('banner-bg.png');
+  background-size: cover;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-content h2 {
+  font-size: 28px;
+  margin: 0 0 12px 0;
+}
+
+.cta-content p {
+  color: var(--text-gray);
+  margin: 0;
+  font-size: 14px;
+}
+
+/* ==================== FOOTER SECTION CSS ==================== */
+.main-footer {
+  background-color: #0f0f0f;
+  margin-top: 120px;
+  padding: 60px 0 30px 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 flat columns footer grid */
+  gap: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-0 0 20px 0;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  color: var(--text-gray);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+  color: var(--text-white);
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-link {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-white);
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  color: var(--text-gray);
+  font-size: 14px;
+}
+
+.footer-legal a {
+  color: var(--text-gray);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.footer-legal a:hover {
+  color: var(--text-white);
+}
